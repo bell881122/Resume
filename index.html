@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>F2E&RGBA Meetup</title>
+  <title>Resume</title>
   <link rel="Shortcut Icon" type="image/x-icon" href="img/favicon.ico" />
+  <!-- <link rel="bookmark" href="img/favicon.ico" /> -->
 
   <!-- Timeline -->
   <script>document.getElementsByTagName("html")[0].className += " js";</script>
-  <link rel="stylesheet" href="stylesheets/timeline.css">
+  <!-- <link rel="stylesheet" href="stylesheets/timeline.css"> -->
   <!-- CostumeCSS -->
   <link rel="stylesheet" href="stylesheets/all.css">
 
@@ -19,15 +20,44 @@
 
 <body>
   <div class="wrap">
-    <div class="navbar-bg w-100 fixed-top"></div>
-    <nav class="navbar navbar-expand-md navbar-dark align-items-start">
-      <h1 class="navbar-brand px-3" href="resume.html"><a class="text-white" href="resume.html">bell881122</a>
-      </h1>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <!--     <nav class="navbar navbar-expand-lg navbar-dark bg-dark section-rotate">
+      <div class="section-rotate-fixed container w-100">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse fixed-top" id="navbarText">
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link h6 mb-0 py-0 scrollTop" href="#webSkills">Web Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  h6 mb-0 py-0 scrollTop" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link h6 mb-0 py-0 scrollTop" href="#works">Works</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="navbar-brand px-3" href="resume.html"><a class="text-white" href="resume.html">bell881122</a></h1>
+  </div>
+ -->
+    <div class="navbar-bg w-100 fixed-top"></div>
+    <div class="navbar-brand px-3 position-relative">
+      <h1 class="h4 position-absolute ml-3" href="index.html"><a class="text-white" href="resume.html">bell881122</a>
+      </h1>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark align-items-start fixed-top">
+      <button class="navbar-toggler d-flex ml-auto d-block d-md-none" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-3" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link h6 mb-0 py-0 scrollTop" href="#webSkills">Web Skills</a>
@@ -42,17 +72,27 @@
       </div>
     </nav>
 
+
+
+
+
     <div class="profile">
       <div class="container">
-        <div class="row py-5">
-          <div class="col-sm-5 text-center">
-            <img src="img/img-c-portrait-1804963_1920.png" alt="">
+        <div class="row py-5 d-flex align-items-center">
+          <div class="col-sm-5 text-center px-4">
+            <img src="img/portrait.png" alt="">
           </div>
-          <div class="col-sm-7 text-white">
-            <h1 class="h3 font-weight-bold">張郁欣 <small>Yu-hsin Chang</small></h1>
-            <p><img src="img/Icon-mail.png" alt=""><span class="ml-2">bell881122@gmail.com</span></p>
-            <p><img src="img/icon-github.png" alt=""><span class="ml-2"><a class="text-white"
-                  href="https://github.com/bell881122?tab=repositories">bell881122</a></span></p>
+          <div class="col-sm-7 text-white profile-text mt-4">
+            <h1 class="h3 GenYoGothicTW-rg text-white d-block d-lg-inline mr-2">張郁欣</h1>
+            <h2 class="h5 GenYoGothicTW-rg text-white d-block d-lg-inline">Yu-hsin Chang</h2>
+            <p class="d-md-flex align-items-center mt-3 mb-2">
+              <img src="img/Icon-mail.png" alt="">
+              <a class="ml-3 text-light" href="mailto:bell881122@gmail.com" target="_blank">bell881122@gmail.com</a>
+            </p>
+            <p class="d-md-flex align-items-center">
+              <img src="img/icon-github.png" alt="">
+              <a class="ml-3 text-light" href="https://github.com/bell881122?tab=repositories">bell881122</a>
+            </p>
           </div>
         </div>
       </div>
@@ -62,7 +102,7 @@
       <div class="container section-rotate-fixed">
         <h2 class="text-center h2-font">Web Skills</h2>
         <div class="row">
-          <div class="col-md-4 mb-4 animated">
+          <div class="col-md-4 mb-4 animated mb-4">
             <div class="card c-shadow scale border-0 h-100">
               <div class="d-flex justify-content-center mt-4 mb-2">
                 <img class="card-img-top" src="img/img-skill-icon-3.png" alt="...">
@@ -70,17 +110,17 @@
               <div class="card-body">
                 <h3 class="card-title text-center h5">Design</h3>
                 <ul>
-                  <li>Adobe XD</li>
                   <li>Photoshop</li>
                   <li>Illustrator</li>
                   <li>Indesign</li>
+                  <li>Adobe XD</li>
                 </ul>
               </div>
               <div class="card-footer bg-deep py-1">
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4 animated">
+          <div class="col-md-4 mb-4 animated mb-4">
             <div class="card c-shadow scale border-0 h-100">
               <div class="d-flex justify-content-center mt-4 mb-2">
                 <img class="card-img-top" src="img/img-skill-icon-1.png" alt="...">
@@ -88,16 +128,16 @@
               <div class="card-body">
                 <h3 class="card-title text-center h5">Web Layout</h3>
                 <ul>
+                  <li>HTML5 + CSS3</li>
                   <li>RWD + Sass/Scss</li>
                   <li>Boostrap 4</li>
-                  <li>Schema.org</li>
                 </ul>
               </div>
               <div class="card-footer bg-warm py-1">
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4 animated">
+          <div class="col-md-4 mb-4 animated mb-4">
             <div class="card c-shadow scale border-0 h-100">
               <div class="d-flex justify-content-center mt-4 mb-2">
                 <img class="card-img-top" src="img/img-skill-icon-2.png" alt="...">
@@ -105,10 +145,9 @@
               <div class="card-body">
                 <h3 class="card-title text-center h5">JS & Dev Helper</h3>
                 <ul>
-                  <li>jQuery animation</li>
-                  <li>AJAX/JSON</li>
+                  <li>jQuery</li>
+                  <li>Javascript(ES6)</li>
                   <li>Git / Github</li>
-                  <li>Vue.js</li>
                   <li>Gulp/Webpack</li>
                 </ul>
               </div>
@@ -121,146 +160,219 @@
       </div>
     </section>
 
+    <!--         <section id="skills" class="bg-gradient1 text-white section-rotate">
+          <div class="section-rotate-fixed">
+            <div class="container p-y-3">
+              <h2 class="text-center m-b-2">
+                技能熟練度
+              </h2>
+              <div class="row">
+                <div class="col-half animated">
+                  <div class="text-center m-y-2">
+                    <span class="fa fa-code fa-5x"></span>
+                  </div>
+                  <h3 class="text-center m-y-1">
+                    HTML + CSS
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus aut dolorem in autem veniam,
+                    nisi repellendus amet a eum laboriosam veritatis doloremque consectetur.</p>
+                </div>
+                <div class="col-half">
+                  <div class="m-b-1">
+                    <span><span class="fa fa-html5"></span> HTML</span>
+                    <div class="progress">
+                      <div class="progress-bar" data-progress="85">
+                        85
+                      </div>
+                    </div>
+                  </div>
+                  <div class="m-b-1">
+                    <span><span class="fa fa-css3"></span> CSS3</span>
+                    <div class="progress">
+                      <div class="progress-bar" data-progress="85">
+                        80
+                      </div>
+                    </div>
+                  </div>
+                  <div class="m-b-1">
+                    <span><span class="fa fa-database"></span> Database</span>
+                    <div class="progress">
+                      <div class="progress-bar" data-progress="75">
+                        75
+                      </div>
+                    </div>
+                  </div>
+                  <div class="m-b-1">
+                    <span><span class="fa fa-git"></span> Git</span>
+                    <div class="progress">
+                      <div class="progress-bar" data-progress="60">
+                        60
+                      </div>
+                    </div>
+                  </div>
+                  <div class="m-b-1">
+                    <span><span class="fa fa-group"></span> Team work</span>
+                    <div class="progress">
+                      <div class="progress-bar" data-progress="90">
+                        90
+                      </div>
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+ -->
     <section class="section-rotate bg-gradient-white" id="experience">
       <div class="container section-rotate-fixed">
-        <h2 class="text-center h2-font">Experience</h2>
-        <p><i class="fas fa-user"></i> Web designer / Art editor / Word editor</p>
+        <h2 class="text-center h2-font mb-0">Experience</h2>
+        <p class="text-center"><i class="fas fa-user"></i> Web designer / Art editor / Word editor</p>
 
         <!-- cd-timeline -->
         <div class="cd-timeline js-cd-timeline">
           <div class="container max-width-lg cd-timeline__container">
-            <div class="cd-timeline__block">
+
+            <div class="cd-timeline__block GenYoGothicTW-rg">
               <div class="cd-timeline__img cd-timeline__img--picture">
                 <i class="fas fa-map-marker-alt h5 pt-2 text-white"></i>
                 <!-- <img src="img/cd-icon-picture.svg" alt="Picture"> -->
               </div> <!-- cd-timeline__img -->
 
               <div class="cd-timeline__content text-component">
-                <h2>網頁設計助理</h2>
-                <p class="color-contrast-medium h5">冰河森林數位科技股份有限公司</p>
+                <h4 class="font-weight-bold mb-0">設計系所創意設計學士班</h4>
+                <h5 class="font-weight-bold mb-2">商業設計系</h5>
+                <p class="color-contrast-medium h6">國立台灣科技大學</p>
+                <div class="flex justify-between items-center">
+                  <span class="cd-timeline__date">2014 Jun Graduation</span>
+                  <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
+                </div>
+              </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+            <div class="cd-timeline__block GenYoGothicTW-rg">
+              <div class="cd-timeline__img cd-timeline__img--picture">
+                <i class="fas fa-map-marker-alt h5 pt-2 text-white"></i>
+                <!-- <img src="img/cd-icon-picture.svg" alt="Picture"> -->
+              </div> <!-- cd-timeline__img -->
+
+              <div class="cd-timeline__content text-component">
+                <h4 class="font-weight-bold mb-0">網頁設計助理</h4>
+                <p class="color-contrast-medium h6">冰河森林數位科技股份有限公司</p>
                 <ul>
-                  <li>網頁設計</li>
-                  <li>網站維護</li>
-                  <li>商品上架</li>
-                  <li>Banner文宣製作</li>
+                  <li>網頁專案發想、提案、設計、維護。</li>
+                  <li>獨力完成新據點展位宣傳活動網站，包含網頁動線規劃、使用者介面與版型設計（不含後台串接）。</li>
+                  <li>協助以 Google Analytics 等統計服務追蹤網站效果，分析數據後優化網站。</li>
                 </ul>
                 <div class="flex justify-between items-center">
-                  <span class="cd-timeline__date">2016 Jan 14</span>
+                  <span class="cd-timeline__date">2015 March</span>
                   <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
                 </div>
               </div> <!-- cd-timeline__content -->
             </div> <!-- cd-timeline__block -->
 
-            <div class="cd-timeline__block">
-              <div class="cd-timeline__img cd-timeline__img--movie">
-                <img src="img/cd-icon-movie.svg" alt="Movie">
-              </div> <!-- cd-timeline__img -->
-
-              <div class="cd-timeline__content text-component">
-                <h2>Title of section 2</h2>
-                <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
-                  Iusto,
-                  optio,
-                  dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad
-                  debitis unde?
-                </p>
-
-                <div class="flex justify-between items-center">
-                  <span class="cd-timeline__date">Jan 18</span>
-                  <a href="#0" class="btn btn--subtle">Read more</a>
-                </div>
-              </div> <!-- cd-timeline__content -->
-            </div> <!-- cd-timeline__block -->
-
-            <div class="cd-timeline__block">
+            <div class="cd-timeline__block GenYoGothicTW-rg">
               <div class="cd-timeline__img cd-timeline__img--picture">
-                <img src="img/cd-icon-picture.svg" alt="Picture">
+                <i class="fas fa-map-marker-alt h5 pt-2 text-white"></i>
+                <!-- <img src="img/cd-icon-picture.svg" alt="Picture"> -->
               </div> <!-- cd-timeline__img -->
 
               <div class="cd-timeline__content text-component">
-                <h2>Title of section 3</h2>
-                <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
-                  Excepturi,
-                  obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error
-                  assumenda
-                  delectus
-                  odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit,
-                  itaque,
-                  deserunt
-                  corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia
-                  eos
-                  repellat
-                  consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore
-                  possimus
-                  rem
-                  voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                <h4 class="font-weight-bold mb-0">美術人員／網站設計助理</h4>
+                <p class="color-contrast-medium h6">蘇美爾整合行銷有限公司</p>
+                <ul>
+                  <li>
+                    客製化網站製作、粉絲專頁維護、流量追蹤。
+                  </li>
+                  <li>
+                    活動文宣設計、製作、監印，宣傳Banner製作。
+                  </li>
+                </ul>
+                <h4 class="font-weight-bold mb-0">個人品牌接案</h4>
+                <ul>
+                  <li>
+                    海報、書籍、文宣、Banner設計。
+                  </li>
+                  <li>
+                    日翻中翻譯接案。
+                  </li>
+                </ul>
 
                 <div class="flex justify-between items-center">
-                  <span class="cd-timeline__date">Jan 24</span>
-                  <a href="#0" class="btn btn--subtle">Read more</a>
+                  <span class="cd-timeline__date">2015 Sep</span>
                 </div>
               </div> <!-- cd-timeline__content -->
             </div> <!-- cd-timeline__block -->
 
-            <div class="cd-timeline__block">
-              <div class="cd-timeline__img cd-timeline__img--location">
-                <img src="img/cd-icon-location.svg" alt="Location">
+            <div class="cd-timeline__block GenYoGothicTW-rg">
+              <div class="cd-timeline__img cd-timeline__img--picture">
+                <i class="fas fa-map-marker-alt h5 pt-2 text-white"></i>
+                <!-- <img src="img/cd-icon-picture.svg" alt="Picture"> -->
               </div> <!-- cd-timeline__img -->
 
               <div class="cd-timeline__content text-component">
-                <h2>Title of section 4</h2>
-                <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
-                  Iusto,
-                  optio,
-                  dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad
-                  debitis unde?
-                  Iste
-                  voluptatibus minus veritatis qui ut.</p>
+                <h4 class="font-weight-bold mb-0">美術編輯</h4>
+                <p class="color-contrast-medium h6">國立政治大學原住民族研究中心</p>
+                <ul>
+                  <li>
+                    分析整理學術資料，將數據圖像化後轉繪為圖表。
+                  </li>
+                  <li>
+                    活動海報、文宣、形象Banner發想設計。
+                  </li>
+                  <li>
+                    原民中心周邊用品設計，以原住民族傳統紋樣，設計該年度公文信封、資料夾、紙袋等辦公用品。
+                  </li>
+                  <li>
+                    《竹南鎮誌》封面設計提案、內頁插圖、圖表繪製。
+                  </li>
+                  <li>
+                    《台灣原住民族部落事典》書籍風格、內頁版型設計規劃、排版。
+                  </li>
+                </ul>
 
                 <div class="flex justify-between items-center">
-                  <span class="cd-timeline__date">Feb 14</span>
-                  <a href="#0" class="btn btn--subtle">Read more</a>
+                  <span class="cd-timeline__date">2015 Sep</span>
                 </div>
               </div> <!-- cd-timeline__content -->
             </div> <!-- cd-timeline__block -->
 
-            <div class="cd-timeline__block">
-              <div class="cd-timeline__img cd-timeline__img--location">
-                <img src="img/cd-icon-location.svg" alt="Location">
+            <div class="cd-timeline__block GenYoGothicTW-rg">
+              <div class="cd-timeline__img cd-timeline__img--picture">
+                <i class="fas fa-map-marker-alt h5 pt-2 text-white"></i>
+                <!-- <img src="img/cd-icon-picture.svg" alt="Picture"> -->
               </div> <!-- cd-timeline__img -->
 
               <div class="cd-timeline__content text-component">
-                <h2>Title of section 5</h2>
-                <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
-                  Iusto,
-                  optio,
-                  dolorum provident rerum.</p>
-
+                <h4 class="font-weight-bold mb-0">美術／文字編輯</h4>
+                <p class="color-contrast-medium h6">大風文創股份有限公司</p>
+                <p class="color-contrast-medium h6">（原繪虹企業股份有限公司）</p>
+                <ul>
+                  <li>
+                    中文書／外文譯作完整書籍出版經驗（獨立專案14本，包含合作專案共超過20本），涵蓋企畫提案、執行、流程控管、印刷監督至通路銷售業績追蹤。
+                  </li>
+                  <li>
+                    熟悉Photoshop、Illustrator、Indesign，豐富的文宣設計經驗，獨立製作配合平台或案件需求的實體活動文宣、廣告文宣與網頁Banner。
+                  </li>
+                  <li>
+                    和外國出版社、客戶廠商、代理商溝通協商經驗（商業英／日語書信），曾參與多場書籍版權會議，熟悉書籍版權簽約流程。
+                  </li>
+                  <li>
+                    擅多工處理，整合並優化現有工作流程，改善資料管理方式。
+                  </li>
+                  <li>
+                    良好溝通技巧，熟悉如何與作者（版權者）、出版者、譯者、插畫師等多方討論企劃細節，並控管專案排程以使書籍（企劃）於預定時間順利完成。
+                  </li>
+                  <li>
+                    樂於學習與嘗試新技術，不太喜歡花時間進行簡單重複的事情，所以總是在找尋更方便與效率的新工具，並思考新的解決方案。
+                  </li>
+                </ul>
                 <div class="flex justify-between items-center">
-                  <span class="cd-timeline__date">Feb 18</span>
-                  <a href="#0" class="btn btn--subtle">Read more</a>
+                  <span class="cd-timeline__date">2017 Dec</span>
                 </div>
               </div> <!-- cd-timeline__content -->
             </div> <!-- cd-timeline__block -->
 
-            <div class="cd-timeline__block">
-              <div class="cd-timeline__img cd-timeline__img--movie">
-                <img src="img/cd-icon-movie.svg" alt="Movie">
-              </div> <!-- cd-timeline__img -->
-
-              <div class="cd-timeline__content text-component">
-                <h2>Final Section</h2>
-                <p class="color-contrast-medium">This is the content of the last section</p>
-
-                <div class="flex justify-between items-center">
-                  <span class="cd-timeline__date">Feb 26</span>
-                </div>
-              </div> <!-- cd-timeline__content -->
-            </div> <!-- cd-timeline__block -->
           </div>
         </div>
       </div>
@@ -268,73 +380,181 @@
 
     <section class="bg-white section-rotate" id="works">
       <div class="container section-rotate-fixed pb-5">
-        <h2 class="text-center h2-font">Works</h2>
+        <h2 class="text-center h2-font pb-3">Works</h2>
         <div class="row">
-          <div class="col-lg-4 col-sm-6 mb-4 animated">
-            <div class="card c-shadow scale border-0">
-              <a href="#">
-                <div style="background-color:#fdb4e3">
-                  <img class="card-img-top" src="img/logo-work-1.png" alt="...">
-                </div>
-                <div class="card-footer bg-transparent border-0">
-                  <p class="h6">Woek-1</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maxime!</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 animated">
-            <div class="card c-shadow scale border-0">
-              <div style="background-color:#fdb4e3">
-                <img class="card-img-top" src="img/logo-work-1.png" alt="...">
-              </div>
-              <div class="card-footer bg-transparent border-0">
-                <p class="h6">Woek-1</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maxime!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 animated">
-            <div class="card c-shadow scale border-0">
-              <div style="background-color:#fdb4e3">
-                <img class="card-img-top" src="img/logo-work-1.png" alt="...">
-              </div>
-              <div class="card-footer bg-transparent border-0">
-                <p class="h6">Woek-1</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maxime!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="card border-0 position-relative animated c-shadow hover-animated scale">
-              <a href="https://bell881122.github.io/F2E-Meetup/" class="click-show-modal" data-toggle="modal" data-target=".bd-example-modal-lg">
-                <img class="click-show-img card-img-top px-3" src="img/logo-work-1.png" alt="...">
+          <div class="col-sm-6 mb-4">
+            <h4 class="my-3 mx-2">Personal Website</h4>
+            <div class="card border-0 position-relative animated c-shadow hover-animated scale mx-2">
+              <a href="" class="click-show-modal" data-toggle="modal"
+                data-target=".bd-example-modal-lg">
+                <img class="click-show-img card-img-top" src="img/Mysite.jpg" alt="...">
                 <div class="bg-gradient-dark position-absolute hover-show w-100 text-white px-2 pb-1">
-                  <p class="hover-show-title font-weight-bold">React Design Pattern</p>
-                  <p class="hover-show-text">201905 F2E Meetup</p>
+                  <p class="hover-show-title font-weight-bold">Mysite</p>
+                  <p class="hover-show-text">Personal Website</p>
+                </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4 class="my-3  mx-2">Event Website</h4>
+            <div class="card border-0 position-relative animated c-shadow hover-animated scale mx-2">
+              <a href="https://bell881122.github.io/F2E-Meetup/" class="click-show-modal" data-toggle="modal"
+                data-target=".bd-example-modal-lg">
+                <img class="click-show-img card-img-top" src="img/Work-F2E.jpg" alt="...">
+                <div class="bg-gradient-dark position-absolute hover-show w-100 text-white px-2 pb-1">
+                  <p class="hover-show-title font-weight-bold">F2E&RGBA-Meetup</p>
+                  <p class="hover-show-text">F2E-Meetup活動官網</p>
                 </div>
             </div>
             </a>
           </div>
         </div>
+        <h4 class="my-3 mx-2 mt-5">Others</h4>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card border-0 position-relative animated c-shadow hover-animated scale mx-2">
+              <a href="https://utpulgg0a3uxnwqgsuadwa-on.drv.tw/bell881122/Bootstrap-ShoppingCart/"
+                class="click-show-modal" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <img class="click-show-img card-img-top" src="img/Work-04.jpg" alt="...">
+                <div class="bg-gradient-dark position-absolute hover-show w-100 text-white px-2 pb-1">
+                  <p class="hover-show-title font-weight-bold">Shopping Cart</p>
+                  <p class="hover-show-text"></p>
+                </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card border-0 position-relative animated c-shadow hover-animated scale mx-2">
+              <a href="https://utpulgg0a3uxnwqgsuadwa-on.drv.tw/bell881122/Bootstrap-Dashboard/"
+                class="click-show-modal" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <img class="click-show-img card-img-top" src="img/Work-02.jpg" alt="...">
+                <div class="bg-gradient-dark position-absolute hover-show w-100 text-white px-2 pb-1">
+                  <p class="hover-show-title font-weight-bold">Dashboard</p>
+                  <p class="hover-show-text"></p>
+                </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card border-0 position-relative animated c-shadow hover-animated scale mx-2">
+              <a href="https://utpulgg0a3uxnwqgsuadwa-on.drv.tw/bell881122/Bootstrap-LandingPage/"
+                class="click-show-modal" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <img class="click-show-img card-img-top" src="img/Work-03.jpg" alt="...">
+                <div class="bg-gradient-dark position-absolute hover-show w-100 text-white px-2 pb-1">
+                  <p class="hover-show-title font-weight-bold">LandingPage</p>
+                  <p class="hover-show-text"></p>
+                </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card border-0 position-relative animated c-shadow hover-animated scale mx-2">
+              <a href="https://utpulgg0a3uxnwqgsuadwa-on.drv.tw/bell881122/RWD-Hexschool%20Restaurant%20Project(modified)/"
+                class="click-show-modal" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <img class="click-show-img card-img-top" src="img/Work-09.jpg" alt="...">
+                <div class="bg-gradient-dark position-absolute hover-show w-100 text-white px-2 pb-1">
+                  <p class="hover-show-title font-weight-bold">Hex Restaurant</p>
+                  <p class="hover-show-text"></p>
+                </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card border-0 position-relative animated c-shadow hover-animated scale mx-2">
+              <a href="https://utpulgg0a3uxnwqgsuadwa-on.drv.tw/bell881122/Bootstrap-Blog/" class="click-show-modal"
+                data-toggle="modal" data-target=".bd-example-modal-lg">
+                <img class="click-show-img card-img-top" src="img/Work-01.jpg" alt="...">
+                <div class="bg-gradient-dark position-absolute hover-show w-100 text-white px-2 pb-1">
+                  <p class="hover-show-title font-weight-bold">Bootstrap-Blog</p>
+                  <p class="hover-show-text"></p>
+                </div>
+            </div>
+            </a>
+          </div>
+          <!--           <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card border-0 position-relative animated c-shadow hover-animated scale mx-2">
+              <a href="https://utpulgg0a3uxnwqgsuadwa-on.drv.tw/bell881122/Html%20%26%20CSS%20multi-page(RWD)(modified%20)/course.html" class="click-show-modal"
+                data-toggle="modal" data-target=".bd-example-modal-lg">
+                <img class="click-show-img card-img-top" src="img/Work-06.jpg" alt="...">
+                <div class="bg-gradient-dark position-absolute hover-show w-100 text-white px-2 pb-1">
+                  <p class="hover-show-title font-weight-bold">Hexschool Muti-Page</p>
+                  <p class="hover-show-text"></p>
+                </div>
+            </div>
+            </a>
+          </div> -->
+
+          <!--           <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card border-0 position-relative animated c-shadow hover-animated scale mx-2">
+              <a href="https://utpulgg0a3uxnwqgsuadwa-on.drv.tw/bell881122/Html%20%26%20CSS%20one-page(modified%20)/" class="click-show-modal"
+                data-toggle="modal" data-target=".bd-example-modal-lg">
+                <img class="click-show-img card-img-top" src="img/Work-07.jpg" alt="...">
+                <div class="bg-gradient-dark position-absolute hover-show w-100 text-white px-2 pb-1">
+                  <p class="hover-show-title font-weight-bold">Hexschool One-Page</p>
+                  <p class="hover-show-text"></p>
+                </div>
+            </div>
+            </a>
+          </div>
+ -->
+
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card border-0 position-relative animated c-shadow hover-animated scale mx-2">
+              <a href="https://utpulgg0a3uxnwqgsuadwa-on.drv.tw/bell881122/jQuery%20Final%20Work/"
+                class="click-show-modal" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <img class="click-show-img card-img-top" src="img/Work-08.jpg" alt="...">
+                <div class="bg-gradient-dark position-absolute hover-show w-100 text-white px-2 pb-1">
+                  <p class="hover-show-title font-weight-bold">Hexschool</p>
+                  <p class="hover-show-text"></p>
+                </div>
+            </div>
+            </a>
+          </div>
+
+
+        </div>
       </div>
     </section>
-    <div class="container">
-      <div class="row py-5">
-        <div class="col-sm-4 text-center">
-          <img class="w-100" src="img/img-c-portrait-1804963_1920.png" alt="">
-        </div>
-        <div class="col-sm-8">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti nostrum consectetur
-            explicabo
-            deserunt. Debitis voluptates iusto rem magni eaque numquam doloribus earum nostrum officia
-            corrupti molestiae neque, velit quaerat culpa?</p>
 
+    <section class="introduce">
+      <div class="container text-white text-justify">
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <h4 class=" GenYoGothicTW-rg text-white mb-2">為何想走網頁設計師／前端工程師的道路？</h4>
+            <div class=" GenYoGothicTW-lt">
+              <p class="mb-1">2015年在冰河森林，我第一次接觸到了網頁設計的工作，也是在這時，才真正認識了網頁這種藉由聯網在無數終端平台呈現的視覺作品。</p>
+              <p class="mb-1">如果說大學研讀商業設計時接觸到的只是該領域相關的設計概念，那麼在這份網頁設計工作中，網頁真正運作的骨架、原理以及全體的形貌才漸漸清晰起來。</p>
+              <p class="mb-1">設計網頁除了用版面設計軟體製作視覺版型外，還需要以HTML等程式語言架設基底語言讓電腦運算而得以運作。</p>
+              <p class="mb-1">
+                還記得那時第一次交出的活動網頁專案，雖然只是回傳使用者所填寫報名資料等等的簡單功能，第一次看到自己寫的程式碼跑起來時的驚喜感，至今也推動著我去探索網頁與程式背後廣大的世界。讓我之後轉向內容偏向商業視覺設計而非網頁設計的工作時，也依然沒有削減對網頁的興趣，開啟了我自學網頁的契機。
+              </p>
+              <p class="mb-1">
+                網頁是一種會「動」的作品，該怎麼動、希望使用者如何和網頁互動，每個環節都值得去思考優化，用每一個細節堆疊，不斷想著如何帶給「使用者能在這裡感到驚喜的體驗」，就是寫網站給我帶來最大的樂趣與堅持的動力。</p>
+            </div>
+
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    <footer class="bg-dark text-white">
+      <div class="container">
+        <div class="row py-2">
+          <div class="col text-center">
+            <small class="mb-0">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script>
+              All rights reserved　|　This Page is made with
+              <i class="fa fa-heart" aria-hidden="true"></i> by <a class="ml-1"
+                href="https://www.linkedin.com/in/%E9%83%81%E6%AC%A3-%E5%BC%B5-63621a18b/"
+                target="_blank">bell881122</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
-
 
 
 
@@ -348,15 +568,16 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-          <img class="modal-img w-100" src="" alt="">
+        <div class="modal-body pt-0">
+          <img class="modal-img w-100 shadow mb-3" src="" alt="">
           <div class="d-flex mt-2">
             <div>
-              <h5 class="modal-title">Modal title</h5>
-              <p class="modal-text mb-0">Modal body text goes here.</p>
+              <h5 class="modal-title GenYoGothicTW-rg">Modal title</h5>
+              <p class="modal-text mb-0 GenYoGothicTW-rg">Modal body text goes here.</p>
             </div>
             <div class="ml-auto d-flex align-items-center">
-              <a href="#" class="modal-button btn btn-sm btn-outline-secondary shadow-none" target="_blank">Go to Wesite</a>
+              <a href="#" class="modal-button btn btn-sm btn-outline-secondary shadow-none" target="_blank">Go to
+                Wesite</a>
             </div>
           </div>
         </div>

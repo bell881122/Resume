@@ -34,19 +34,19 @@ $(document).ready(function () {
                         console.log('thisValue', thisValue);
                         $(this).css('width', thisValue + '%');
                     });
-                } */
-
+                }
+                   */
         // animated
-        /*         $('.animated').each(function () {
-                    var thisPos = $(this).offset().top;
-                    if ((windowHeight + scrollPos) >= thisPos) {
-                        $(this).addClass('fadeIn');
-                    }
-                });
+        $('.animated').each(function () {
+            var thisPos = $(this).offset().top;
+            if ((windowHeight + scrollPos) >= thisPos) {
+                $(this).addClass('fadeIn');
+            }
+        });
+        /*                 // bg scroll 
+                        $('#profiles').css('background-position-y', -(scrollPos / 2) + 'px')
+                        $('#header-ele').css('transform', 'translateY( ' + (scrollPos / 2) + 'px )')
          */
-        // bg scroll 
-        $('#profiles').css('background-position-y', -(scrollPos / 2) + 'px')
-        $('#header-ele').css('transform', 'translateY( ' + (scrollPos / 2) + 'px )')
 
 
 
@@ -55,12 +55,12 @@ $(document).ready(function () {
             // $(".hover-show").toggleClass("hover-show");
             // $(".hover-show-title").attr("style", "transition-delay: .15s");
             // $(".hover-show-text").attr("style", "transition-delay: .25s");
-            $(".hover-show, .hover-show-title, .hover-show-text").addClass("show");
+            $(this).find(".hover-show, .hover-show-title, .hover-show-text").addClass("show");
         });
         $(".hover-animated").mouseout(function (e) {
             // $(".hover-show").toggleClass("hover-show");
             // $(".hover-show-title, .hover-show-text").attr("style", "transition-delay: 0s");
-            $(".hover-show, .hover-show-title, .hover-show-text").removeClass("show");
+            $(this).find(".hover-show, .hover-show-title, .hover-show-text").removeClass("show");
             e.stopPropagation();
         });
 
