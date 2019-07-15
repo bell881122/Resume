@@ -3151,11 +3151,11 @@ mark {
   .cd-timeline__date {
     position: absolute;
     width: 100%;
-    left: 120%;
+    left: 125%;
     top: 20px; }
   .cd-timeline__block:nth-child(even) .cd-timeline__date {
     left: auto;
-    right: 120%;
+    right: 125%;
     text-align: right; } }
 
 @media (min-width: 50rem) {
@@ -10834,7 +10834,7 @@ section {
   height: 40px;
   margin-top: -47px; }
   .navbar .navbar-collapse {
-    margin-top: 50px; }
+    margin-top: 54px; }
     @media (max-width: 767px) {
       .navbar .navbar-collapse {
         margin-top: 10px; }
@@ -10934,15 +10934,18 @@ section {
   margin-bottom: 0px;
   transition: all .3s;
   -ms-transform: translateY(10px);
-      transform: translateY(10px); }
+      transform: translateY(10px);
+  padding-left: 5px; }
 
 .hover-show-title {
   transition-delay: .15s;
-  font-size: 1rem; }
+  font-size: 1rem;
+  padding-top: 5px; }
 
 .hover-show-text {
   transition-delay: .25s;
-  font-size: 14px; }
+  font-size: 14px;
+  padding-bottom: 5px; }
 
 .show {
   opacity: 1;
